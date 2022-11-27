@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+    <title>Personal Page</title>
+</head>
+
+<body>
+    <div>
+        <div class="heading">
+        <h1>Books</h1>
+        </div>
+        <hr />
+
+        <div>
+            <a href="/personal/">Home</a> |
+            <a href="/personal/hobbies">Hobbies</a> |
+            <a href="/personal/books">Books</a>
+        </div>
+
+        <hr />
+
+        <p>
+            These are a few of my recently read books.
+        </p>
+
+        <ul>
+            <li>
+                Profit from the source: Transforming your business by putting suppliers at the core.
+            </li>
+            <li>
+                Python Crash Course
+            </li>
+            <li>
+                Violets
+            </li>
+            <li>
+                The Strategy Book
+            </li>
+            <li>
+                Black Spartacus
+            </li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

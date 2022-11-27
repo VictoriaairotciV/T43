@@ -1,0 +1,12 @@
+body {
+    background-color: #F2DFCE;
+    color: #002060;
+}
+
+.heading {
+    text-align: right;
+}
+
+h3 {
+    border-bottom:  1px solid #9ca1ad;
+}

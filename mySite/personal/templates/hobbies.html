@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+    <title>Personal Page</title>
+</head>
+
+<body>
+    <div>
+        <div class="heading">
+        <h1>Hobbies</h1>
+        </div>
+        <hr />
+
+        <div>
+            <a href="/personal/">Home</a> |
+            <a href="/personal/hobbies">Hobbies</a> |
+            <a href="/personal/books">Books</a>
+        </div>
+
+        <hr />
+
+        <h3>
+            Dog Walking
+        </h3>
+        <p>
+            I like taking my dogs walking and finding new areas
+            of the countryside to explore.
+            <br/>
+            <br/>
+            <img src="{% static 'dog-walking.jpg' %}" />
+        </p>
+
+        <h3>
+            Yo Yo Tricks
+        </h3>
+        <p>
+            I enjoy learning new tricks for the yo yo and have
+            entered a few small competitions.
+            <br/>
+            <br/>
+            <img src="{% static 'yoyo-tricks.jpg' %}" />
+        </p>
+
+    </div>
+</body>
+
+</html>
